@@ -2,7 +2,7 @@ import React from 'react'
 import { useState } from 'react'
 
 function InfoRow({info}) {
-  const isNegative = info.price_change_percentage_24h > 0
+  const isNegative = info.price_change_percentage_24h < 0
  
 
   return (
